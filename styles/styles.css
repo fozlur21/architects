@@ -179,8 +179,6 @@ span{
     font-size: 20px;
     color: #FFFFFF;
 }
-
-
 .box-item{
     display: flex;
     gap: 125px;
@@ -218,4 +216,46 @@ span{
     color: #727272;
     align-items: left;
     margin-bottom: 65px;
+}
+.company{
+    text-align: center;
+}
+.company-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+
+}
+.company-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 450px;
+}
+.company-logo{
+    display: flex;
+    gap: 45px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+}
+.footer {
+    background: #FFF4E7;;
+    border: 0;
+    border-radius: 5px;
+    padding: 30px;
+    width: 80%;
+    margin-left: 130px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
