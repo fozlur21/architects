@@ -79,6 +79,65 @@ span{
     margin: auto;
     overflow: hidden;
 }
+.container1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 65px;
+    gap: 45px;
+}
+.container1-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 35px;
+}
+.container1-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.container2{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.container2-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.container2-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sp1-btn-primary{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+    border: 0px;
+    position: relative;
+    margin-left: 550px;
+}
+.text{
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.text1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
 .image{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -110,9 +169,6 @@ span{
     color: #727272;
     margin-bottom: 30px;
 }
-.sp-container{
-
-}
 .sp-btn-primary{
     background: #FF900E;
     border-radius: 8px;
@@ -122,4 +178,44 @@ span{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+
+.box-item{
+    display: flex;
+    gap: 125px;
+    margin-left: 150px;
+}
+.package{
+    background: #FFFFFF;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.section-title{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.section-description{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    align-items: left;
+    margin-bottom: 65px;
 }
