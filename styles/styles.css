@@ -65,3 +65,61 @@ nav li{
     margin-left: 200px;
     margin-bottom: 30px;
 }
+.second-page{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+span{
+    margin: 15px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sp-sentence{
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+.text-a{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.text-b{
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+}
+.text-c{
+    font-weight: 500;
+    font-size: 45px;
+    color: #FF900E;
+
+}
+.sp-banner-description{
+    width: 537px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.sp-container{
+
+}
+.sp-btn-primary{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
